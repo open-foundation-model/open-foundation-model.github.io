@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Science for Foundation Models (OS-FMs) - ICLR 2025 Workshop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: url('img/singapore.jpg') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            background: #eee;
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #007acc;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .schedule table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .schedule table, .schedule th, .schedule td {
+            border: 1px solid #ddd;
+        }
+        .schedule th, .schedule td {
+            padding: 10px;
+            text-align: left;
+        }
+        .schedule th {
+            background: #f4f4f4;
+        }
+        .headshot {
+            display: inline-block;
+            text-align: center;
+            margin: 10px;
+        }
+        .headshot img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 5px;
+        }
+        .sponsor {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .sponsor img {
+            width: 200px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Open Science for Foundation Models (OS-FMs)</h1>
+        <p>ICLR 2025 Workshop | Promoting Transparency in AI</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#submissions">Submissions</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#speakers">Speakers</a>
+        <a href="#organizers">Organizers</a>
+        <a href="#sponsors">Sponsors</a>
+    </nav>
+
+    <section id="about">
+        <h2>About the Workshop</h2>
+        <p>
+            Foundation models (FMs) have transformed AI research but lack scientific transparency. The OS-FMs workshop
+            aims to address this by fostering open science, reproducibility, and the sharing of open-source models and datasets.
+            We invite contributions that explore key aspects of FMs, such as dataset curation, evaluation methodologies, and
+            innovative training strategies. Join us in advancing the accessibility and transparency of foundation models for the
+            global research community.
+        </p>
+    </section>
+
+    <section id="call-for-papers">
+        <h2>Call for Papers</h2>
+        <p>
+            The OS-FMs workshop invites submissions of research papers and industrial papers, ranging from preliminary research
+            results and visionary papers to full-length papers. Submissions should follow the ICLR proceedings format and fall into
+            the following categories:
+        </p>
+        <ul>
+            <li><strong>Short paper:</strong> up to 6 pages + references and appendix.</li>
+            <li><strong>Regular paper:</strong> up to 9 pages + references and appendix.</li>
+        </ul>
+        <p>
+            We invite papers on topics including, but not limited to:
+        </p>
+        <ul>
+            <li><strong>Open Datasets</strong>: Acquisition, curation, and synthesis of pretraining, instruction, and preference datasets
+                through manual or algorithmic methods. Open access to instruction and preference datasets for alignment
+                research.</li>
+            <li><strong>Open Foundation Models</strong>: Pretraining strategies including data scaling, model architecture, multi-modal,
+                and multi-task pretraining. Learning algorithms such as meta-learning, model fusion, model merging, and
+                continual learning designed for open, scalable models. Inference algorithms like decoding, reasoning, search,
+                and planning, tailored for foundation models.</li>
+            <li><strong>Open Training Protocols</strong>: Training dynamics research on scaling laws, interpretability, complexity analysis,
+                emergent capabilities, and phenomena like grokking. Alignment techniques including prompt tuning, prefix
+                tuning, instruction tuning, and reinforcement learning with human/AI feedback.</li>
+            <li><strong>Open Evaluation</strong>: Benchmark development and the creation of transparent evaluation protocols and metrics,
+                including the open sharing of benchmark datasets and evaluation results across different foundation models.</li>
+            <li><strong>Open Compute Efficiency Techniques</strong>: Focus on model distillation, compression, quantization, and
+                optimizing attention or memory mechanisms for improved compute efficiency in open foundation models.</li>
+            <li><strong>Open Multi-Modal Foundation Models</strong>: Expanding to modalities like vision, audio, and multi-modal
+                foundation models, with extra emphasis on underexplored areas such as chemistry, medicine, and education.</li>
+            <li><strong>Open Interactive and Agent Systems</strong>: Open development of conversational AI, interactive learning models,
+                multi-agent systems, and integration with external tools and APIs.</li>
+            <li><strong>Open Replication of Proprietary Systems</strong>: Efforts to replicate and openly share foundation models and
+                systems that were previously proprietary, ensuring transparency and reproducibility for broader research and
+                development.</li>
+        </ul>
+        <p>
+            All accepted papers will be presented as posters. Additionally, we will select around 3 papers for short oral presentations
+            and 2 papers for outstanding paper awards with potential cash incentives.
+        </p>
+        <h3>Novelty and Openness</h3>
+        <p>
+            For novelty, the workshop does not accept submissions that have previously been published at ICLR or other machine
+            learning or related venues. For openness, we encourage submissions with sufficient open-source resources (e.g., checkpoint,
+            code, data, training details). Accepted papers will be published on the website, but the workshop is <strong>non-archival</strong>.
+        </p>
+        <h3>Key Dates</h3>
+        <ul>
+            <li>Submission Open: January 22, 2025</li>
+            <li>Submission Deadline: February 3, 2025</li>
+            <li>Notifications: March 5, 2025</li>
+            <li>Camera-Ready: April 5, 2025</li>
+        </ul>
+    </section>
+
+    <section id="review">
+        <h2>Review</h2>
+        <p>We are inviting reviewers for workshop submissions. If you are interested in reviewing, please register through:</p>
+        <iframe width="640px" height="480px" src="https://forms.office.com/e/SdYw5U75U3?embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+    </section>
+
+    <section id="schedule">
+        <h2>Workshop Schedule (Tentative)</h2>
+        <div class="schedule">
+            <table>
+                <tr>
+                    <th>Time</th>
+                    <th>Activity</th>
+                </tr>
+                <tr>
+                    <td>08:00-09:00</td>
+                    <td>Registration</td>
+                </tr>
+                <tr>
+                    <td>09:00-09:10</td>
+                    <td>Opening Remarks</td>
+                </tr>
+                <tr>
+                    <td>09:10-09:40</td>
+                    <td>Keynote Talk 1: Stella Biderman (EleutherAI)</td>
+                </tr>
+                <tr>
+                    <td>09:40-10:10</td>
+                    <td>Keynote Talk 2: Loubna Ben Allal (Hugging Face)</td>
+                </tr>
+                <tr>
+                    <td>10:10-10:40</td>
+                    <td>Oral Presentations</td>
+                </tr>
+                <tr>
+                    <td>10:40-11:10</td>
+                    <td>Coffee Break</td>
+                </tr>
+                <tr>
+                    <td>11:10-11:40</td>
+                    <td>Keynote Talk 3: Zhengzhong Liu (Petuum)</td>
+                </tr>
+                <tr>
+                    <td>11:40-12:30</td>
+                    <td>Poster Session 1</td>
+                </tr>
+                <tr>
+                    <td>12:30-13:30</td>
+                    <td>Lunch Break</td>
+                </tr>
+                <tr>
+                    <td>13:30-14:00</td>
+                    <td>Keynote Talk 4: Wenhao Huang (ByteDance)</td>
+                </tr>
+                <tr>
+                    <td>14:00-14:30</td>
+                    <td>Keynote Talk 5: Shayne Longpre (MIT)</td>
+                </tr>
+                <tr>
+                    <td>14:30-15:00</td>
+                    <td>Keynote Talk 6: Luca Soldaini (Allen Institute for AI)</td>
+                </tr>
+                <tr>
+                    <td>15:00-16:00</td>
+                    <td>Panel Discussion</td>
+                </tr>
+                <tr>
+                    <td>16:00-16:30</td>
+                    <td>Coffee Break</td>
+                </tr>
+                <tr>
+                    <td>16:30-17:20</td>
+                    <td>Poster Session 2</td>
+                </tr>
+                <tr>
+                    <td>17:20-17:30</td>
+                    <td>Award Announcements & Closing Remarks</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section id="speakers">
+        <h2>Invited Speakers</h2>
+        <div>
+            <div class="headshot">
+                <img src="img/Stella.jpg" alt="Stella Biderman">
+                <p>Stella Biderman</p>
+                <p>(EleutherAI)</p>
+            </div>
+            <div class="headshot">
+                <img src="img/Loubna.jpeg" alt="Loubna Ben Allal">
+                <p>Loubna Ben Allal</p>
+                <p>(Hugging Face)</p>
+            </div>
+            <div class="headshot">
+                <img src="img/Zhengzhong.png" alt="Zhengzhong Liu">
+                <p>Zhengzhong Liu</p>
+                <p>(Petuum)</p>
+            </div>
+            <div class="headshot">
+                <img src="Wenhao.jpg" alt="Wenhao Huang">
+                <p>Wenhao Huang</p>
+                <p>(ByteDance)</p>
+            </div>
+            <div class="headshot">
+                <img src="img/Shayne.jpg" alt="Shayne Longpre">
+                <p>Shayne Longpre</p>
+                <p>(MIT)</p>
+            </div>
+            <div class="headshot">
+                <img src="img/Luca.webp" alt="Luca Soldaini">
+                <p>Luca Soldaini</p>
+                <p>(Allen Institute for AI)</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="organizers">
+        <h2>Organizing Committee</h2>
+        <div>
+            <div class="headshot">
+                <img src="img/Jiaheng.png" alt="Jiaheng Liu">
+                <p>Jiaheng Liu</p>
+                <p>(Alibaba, Nanjing University)</p>
+            </div>
+            <div class="headshot">
+                <img src="img/Riza.webp" alt="Riza Batista-Navarro">
+                <p>Riza Batista-Navarro</p>
+                <p>(University of Manchester)</p>
+            </div>
+            <div class="headshot">
+                <img src="img/Qian.png" alt="Qian Liu">
+                <p>Qian Liu</p>
+                <p>(Sea AI Lab)</p>
+            </div>
+            <div class="headshot">
+                <img src="img/Niklas.png" alt="Niklas Muennighoff">
+                <p>Niklas Muennighoff</p>
+                <p>(Stanford University)</p>
+            </div>
+            <div class="headshot">
+                <img src="img/Ge.jpg" alt="Ge Zhang">
+                <p>Ge Zhang</p>
+                <p>(ByteDance)</p>
+            </div>
+            <div class="headshot">
+                <img src="img/Yizhi.jpg" alt="Yizhi Li">
+                <p>Yizhi Li</p>
+                <p>(University of Manchester)</p>
+            </div>
+            <div class="headshot">
+                <img src="img/Xinyi.jpg" alt="Xinyi Wang">
+                <p>Xinyi Wang</p>
+                <p>(UC Santa Barbara)</p>
+            </div>
+            <div class="headshot">
+                <img src="img/Willie.jpg" alt="Willie Neiswanger">
+                <p>Willie Neiswanger</p>
+                <p>(USC)</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sponsors">
+        <h2>Our Sponsor</h2>
+        <div class="sponsor">
+            <img src="img/bytedance.png" alt="Bytedance Logo">
+        </div>
+    </section>
+
+    <footer>
+        <footer>
+            <p style="font-size: 0.9em; text-align: center; margin: 10px 0;">Disclaimer: All information on this website is subject to change.</p>
+            <p>Contact us at: xxx@xxx | &copy; 2025 OS-FMs Workshop</p>
+        </footer>
+    </footer>
+</body>
+</html>
