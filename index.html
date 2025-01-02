@@ -56,8 +56,16 @@
         .schedule th {
             background: #f4f4f4;
         }
+        .headshot-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
         .headshot {
-            display: inline-block;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             text-align: center;
             margin: 10px;
         }
@@ -248,38 +256,38 @@
         </div>
     </section>
 
-    <section id="speakers">
+        <section id="speakers">
         <h2>Invited Speakers</h2>
-        <div>
+        <div class="headshot-grid">
             <div class="headshot">
-                <img src="img/stella.jpg" alt="Stella Biderman">
+                <img src="placeholder.jpg" alt="Stella Biderman">
                 <p>Stella Biderman</p>
                 <p>(EleutherAI)</p>
             </div>
             <div class="headshot">
-                <img src="img/Junyang.jpg" alt="Junyang Lin">
-                <p>Junyang Lin</p>
-                <p>(Alibaba)</p>
-            </div>
-            <div class="headshot">
-                <img src="img/Zhengzhong.png" alt="Zhengzhong Liu">
-                <p>Zhengzhong Liu</p>
-                <p>(Petuum)</p>
-            </div>
-            <div class="headshot">
-                <img src="img/Wenhao.jpg" alt="Wenhao Huang">
-                <p>Wenhao Huang</p>
-                <p>(ByteDance)</p>
-            </div>
-            <div class="headshot">
-                <img src="img/Shayne.jpg" alt="Shayne Longpre">
+                <img src="placeholder.jpg" alt="Shayne Longpre">
                 <p>Shayne Longpre</p>
                 <p>(MIT)</p>
             </div>
             <div class="headshot">
-                <img src="img/Luca.webp" alt="Luca Soldaini">
+                <img src="placeholder.jpg" alt="Luca Soldaini">
                 <p>Luca Soldaini</p>
                 <p>(Allen Institute for AI)</p>
+            </div>
+            <div class="headshot">
+                <img src="placeholder.jpg" alt="Wenhao Huang">
+                <p>Wenhao Huang</p>
+                <p>(ByteDance)</p>
+            </div>
+            <div class="headshot">
+                <img src="placeholder.jpg" alt="Zhengzhong Liu">
+                <p>Zhengzhong Liu</p>
+                <p>(Petuum)</p>
+            </div>
+            <div class="headshot">
+                <img src="placeholder.jpg" alt="Junyang Wang">
+                <p>Junyang Wang</p>
+                <p>(Company/Institute)</p>
             </div>
         </div>
     </section>
